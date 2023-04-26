@@ -8,7 +8,7 @@ import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-    <HashRouter basename='/' >
+    <HashRouter  >
       <Routes>
 
         <Route path="/dashboard" element={<Dashboard />} />
