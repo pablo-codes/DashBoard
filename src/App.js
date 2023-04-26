@@ -8,12 +8,12 @@ import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-    <HashRouter basename='/signin' >
+    <HashRouter basename='/' >
       <Routes>
 
         <Route path="/dashboard" element={<Dashboard />} />
 
-        <Route path="/signin" element={<SignIn />} />
+        <Route path="/" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/profile" element={<Profile />} />
 
