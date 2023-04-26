@@ -1,4 +1,4 @@
-import { HashRouter as Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 import SignIn from "./components/SignIn/SignIn";
@@ -8,18 +8,20 @@ import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-    <Routes basename='/'>
-      <Route path="/" element={<SignIn />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+    <HashRouter >
+      <Routes>
+
+        <Route path="/dashboard" element={<Dashboard />} />
+
+        <Route path="/" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/profile" element={<Profile />} />
 
 
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/profile" element={<Profile />} />
+      </Routes>
 
 
-    </Routes>
-
-
+    </HashRouter>
   );
 }
 
