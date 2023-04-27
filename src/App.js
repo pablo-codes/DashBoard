@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 import SignIn from "./components/SignIn/SignIn";
@@ -6,24 +6,20 @@ import SignUp from "./components/SignIn/SignUp";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Profile from "./components/Profile/Profile";
 
-function App() {
+const App = () => {
   return (
-    <div className='app'>
-      <BrowserRouter basename='/client.github.io'  >
-        <Routes>
+    <>
+      <Routes>
 
-          <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
-          <Route exact path="/client.github.io" element={<SignIn />} ></Route>
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/profile" element={<Profile />} />
-
-
-        </Routes>
+        <Route path="/" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/profile" element={<Profile />} />
 
 
-      </BrowserRouter>
-    </div>
+      </Routes>
+    </>
   );
 }
 
