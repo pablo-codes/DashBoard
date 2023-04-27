@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default
   axios.create({
-    baseURL: "https://api-pablo-codes.onrender.com",
+    baseURL: "https://server-sj6t.onrender.com",
     withCredentials: true
   })

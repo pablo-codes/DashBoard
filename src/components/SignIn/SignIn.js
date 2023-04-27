@@ -229,7 +229,7 @@ const SignIn = () => {
                                 <div className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root">
                                     <a
                                         className="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineAlways css-wpssva-MuiTypography-root-MuiLink-root"
-                                        href="/signup"
+                                        href="client.github.io/#/signup"
                                     >Don't have an account? Sign up</a>
                                 </div>
                             </div>
