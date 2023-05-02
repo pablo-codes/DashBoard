@@ -44,7 +44,7 @@ const DashBody = () => {
                             </div>
                             <div className="serach_field-area">
                                 <div className="search_inner">
-                                    <form action="https://demo.dashboardpack.com/finance-html/index.html#">
+                                    <form action="client.github.io/#/dashboard">
                                         <div className="search_field">
                                             <input type="text" placeholder="Search here..." />
                                         </div>
@@ -57,12 +57,12 @@ const DashBody = () => {
                             <div className="header_right d-flex justify-content-between align-items-center">
                                 <div className="header_notification_warp d-flex align-items-center">
                                     <li>
-                                        <a href="https://demo.dashboardpack.com/finance-html/index.html#">
+                                        <a href="client.github.io/#/dashboard">
                                             <img src={require("../img/bell.svg")} alt="" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://demo.dashboardpack.com/finance-html/index.html#">
+                                        <a href="client.github.io/#/dashboard">
                                             <img src={require("../img/msg.svg")} alt="" />
                                         </a>
                                     </li>
@@ -82,8 +82,8 @@ const DashBody = () => {
                                         <h5>{Details.user.username}</h5>
                                         <div className="profile_info_details">
                                             <a href="/profile">My Profile <i className="ti-user"></i></a>
-                                            <a href="https://demo.dashboardpack.com/finance-html/index.html#">Settings <i className="ti-settings"></i></a>
-                                            <a href="https://demo.dashboardpack.com/finance-html/index.html#">Log Out <i className="ti-shift-left"></i></a>
+                                            <a href="client.github.io/#/dashboard">Settings <i className="ti-settings"></i></a>
+                                            <a href="">Log Out <i className="ti-shift-left"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@ const DashBody = () => {
                         <div className="col-lg-12 col-sm-12">
                             <div className="footer_iner text-center">
                                 <p>
-                                    2020 © Influence - Designed by<a href="https://demo.dashboardpack.com/finance-html/index.html#">
+                                    2020 © Influence - Designed by<a href="client.github.io/#/dashboard">
                                         Dashboard</a>
                                 </p>
                             </div>

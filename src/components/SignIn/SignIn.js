@@ -222,7 +222,7 @@ const SignIn = () => {
                                 >
                                     <a
                                         className="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineAlways css-wpssva-MuiTypography-root-MuiLink-root"
-                                        href="/client.github.io/#"
+                                        href="/client.github.io/"
                                     >Forgot password?</a
                                     >
                                 </div>
