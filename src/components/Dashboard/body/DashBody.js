@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useCookies } from 'react-cookie';
+import { Link } from 'react-router-dom';
 import indexService from '../../../services/indexService';
 
 const DashBody = () => {
@@ -81,8 +82,8 @@ const DashBody = () => {
                                         <p>Welcome {Details.user.role}!</p>
                                         <h5>{Details.user.username}</h5>
                                         <div className="profile_info_details">
-                                            <a href="/profile">My Profile <i className="ti-user"></i></a>
-                                            <a href="client.github.io/#/dashboard">Settings <i className="ti-settings"></i></a>
+                                            <Link to="/profile">My Profile <i className="ti-user"></i></Link>
+                                            <a href="#">Settings <i className="ti-settings"></i></a>
                                             <a href="">Log Out <i className="ti-shift-left"></i></a>
                                         </div>
                                     </div>

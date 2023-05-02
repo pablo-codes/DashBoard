@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiSettingsLine, RiImageLine } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 const DashNav = () => {
     return (
         <nav className="sidebar">
@@ -11,29 +12,30 @@ const DashNav = () => {
             </div>
             <ul id="sidebar_menu" className="metismenu">
                 <li className="bars">
-                    <a className="" href="/dashboard" >
+                    <Link to='/dashboard'>
+
 
                         <img src={require("../img/1.svg")} alt="" />
                         <span>Dashboard</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="bars">
-                    <a className="" href="/products" >
+                    <Link to='/profile'>
                         <img src={require("../img/2.svg")} alt="" />
                         <span>Blogs</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="bars">
-                    <a className="" href="/images" >
+                    <Link to='/images'>
                         <RiImageLine size={'90%'} />
                         <span>Images</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="bars">
-                    <a className="" href="/settings" >
+                    <Link to='/settings'>
                         <RiSettingsLine />
                         <span>Settings</span>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </nav>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useCookies } from 'react-cookie'
-import { Navigate, redirect, useNavigate } from 'react-router-dom'
+import { Link, Navigate, redirect, useNavigate } from 'react-router-dom'
 import './SignIn.css'
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai'
 
@@ -269,10 +269,10 @@ const SignUp = () => {
                                     >
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root">
-                                    <a
+                                    <Link to='/'
                                         className="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineAlways css-wpssva-MuiTypography-root-MuiLink-root"
                                         href="/"
-                                    > Have an account? Sign In</a>
+                                    > Have an account? Sign In</Link>
                                 </div>
                             </div>
                             <p

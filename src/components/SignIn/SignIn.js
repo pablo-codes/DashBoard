@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useCookies } from 'react-cookie'
-import { Navigate, redirect, useNavigate } from 'react-router-dom'
+import { Link, Navigate, redirect, useNavigate } from 'react-router-dom'
 import './SignIn.css'
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai'
 import blogService from '../../services/blogService'
@@ -220,17 +220,16 @@ const SignIn = () => {
                                 <div
                                     className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1vd824g-MuiGrid-root"
                                 >
-                                    <a
+                                    <Link to='/'
                                         className="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineAlways css-wpssva-MuiTypography-root-MuiLink-root"
-                                        href="/client.github.io/"
-                                    >Forgot password?</a
-                                    >
+
+                                    >Forgot password?</Link>
                                 </div>
                                 <div className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root">
-                                    <a
+                                    <Link to='/signup'
                                         className="MuiTypography-root MuiTypography-body2 MuiLink-root MuiLink-underlineAlways css-wpssva-MuiTypography-root-MuiLink-root"
                                         href="/client.github.io/#/signup"
-                                    >Don't have an account? Sign up</a>
+                                    >Don't have an account? Sign up</Link>
                                 </div>
                             </div>
                             <p
