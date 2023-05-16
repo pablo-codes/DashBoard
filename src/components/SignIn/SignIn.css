@@ -23,6 +23,27 @@ code {
   right: 30%;
   font-size: 2%;
 }
+@media (min-width: 900px) and (max-width: 1000px) {
+  .root2 {
+    position: relative;
+    right: 20;
+    font-size: 2%;
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .root2 {
+    position: relative;
+    right: 5%;
+    font-size: 2%;
+  }
+}
+@media (max-width: 599px) {
+  .root2 {
+    font-size: 2%;
+    position: relative;
+    right: 0%;
+  }
+}
 
 .css-1jrn2fe-MuiGrid-root {
   box-sizing: border-box;
