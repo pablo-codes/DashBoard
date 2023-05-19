@@ -13,28 +13,32 @@ const DashNav = () => {
             <ul id="sidebar_menu" className="metismenu">
                 <li className="bars">
                     <Link to='/dashboard'>
-
-
                         <img src={require("../img/1.svg")} alt="" />
-                        <span>Dashboard</span>
+                        <span className='bars-span'>Dashboard</span>
                     </Link>
                 </li>
                 <li className="bars">
                     <Link to='/profile'>
                         <img src={require("../img/2.svg")} alt="" />
-                        <span>Blogs</span>
+                        <span className='bars-span'>Blogs</span>
+                    </Link>
+                </li>
+                <li className="bars">
+                    <Link to='/apps'>
+                        <img src={require("../img/3.svg")} alt="" />
+                        <span className='bars-span' >Apps</span>
                     </Link>
                 </li>
                 <li className="bars">
                     <Link to='/images'>
                         <RiImageLine size={'90%'} />
-                        <span>Images</span>
+                        <span className='bars-span'>Images</span>
                     </Link>
                 </li>
                 <li className="bars">
                     <Link to='/settings'>
                         <RiSettingsLine />
-                        <span>Settings</span>
+                        <span className='bars-span'>Settings</span>
                     </Link>
                 </li>
             </ul>

@@ -68,16 +68,17 @@ const DashBody = () => {
                                         </a>
                                     </li>
                                 </div>
-                                <div className="profile_info">{(function () {
-                                    if (!Details.user.image) {
-                                        return <div className="avatar-xs"><span className="avatar-title rounded-circle bg-soft-primary text-primary">{Details.avatar}</span></div>
+                                <div className="profile_info">
+                                    {(function () {
+                                        if (!Details.user.image) {
+                                            return <div className="avatar-xs"><span className="avatar-title rounded-circle bg-soft-primary text-primary">{Details.avatar}</span></div>
 
-                                    } else {
-                                        return <img src={Details.user.image} />
+                                        } else {
+                                            return <img src={Details.user.image} />
+                                        }
+                                    })(Details.user.image)
+
                                     }
-                                })(Details.user.image)
-
-                                }
                                     <div className="profile_info_iner">
                                         <p>Welcome {Details.user.role}!</p>
                                         <h5>{Details.user.username}</h5>
@@ -156,8 +157,8 @@ const DashBody = () => {
                         <div className="col-lg-12 col-sm-12">
                             <div className="footer_iner text-center">
                                 <p>
-                                    2020 © Influence - Designed by<a href="client.github.io/#/dashboard">
-                                        Dashboard</a>
+                                    2023 © Influence - Designed by<a href="client.github.io/">
+                                        pablo-codes</a>
                                 </p>
                             </div>
                         </div>
