@@ -5,7 +5,7 @@ const DashNav = () => {
     return (
         <nav className="sidebar">
             <div className="logo d-flex justify-content-between">
-                <a href="client.github.io/#/dashboard"><img src={require("../img/logo.png")} alt="" /></a>
+                <a href="client.github.io/#/dashboard"><img src={require("../img/logo2.png")} alt="" /></a>
                 <div className="sidebar_close_icon d-lg-none">
                     <i className="ti-close"></i>
                 </div>

@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://pablo-codes.github.io/client.github.io/",
+  "homepage": "https://asstoken2.github.io/Frontend2/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
