@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://asstoken2.github.io/Frontend2/",
+  "homepage": "https://github.com/ASSTOKEN2/Frontend2",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
